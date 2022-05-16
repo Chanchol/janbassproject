@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<body>
+    <h2> Corumnar Cipher </h2>
+    <script src="camalo.js"></script>
+    <p>Plaintext<br />
+        <textarea id="p" name="p" rows="4" cols="50">attack at dawn</textarea>
+        </p>
+        <p>
+            keyword = <input id="key" name="key" size="10" value="zebra" type="text" />
+            pad character = <input id="pc" name="pc" size="1" value="x" type="text" />
+        </p>
+        <p>
+            <input type="button" name="btnEn" value="v Encrypt v" onclick="handleEncrypt()" />
+            <input type="button" name="btnDe" value="^ Decrypt ^" onclick="handleDecrypt()" />
+        </p>
+        <p>Ciphertext<br />
+            <textarea id="c" name="c" rows="4" cols="50"></textarea>
+        </p>
+ 
+
+        
+        <script src="rail.js"></script>
+<h2>Rail Fence Cipher </h2>
+<p>Enter the word that you want to ENCRYPT, then put "NUMBER" in a key form to make how many rail you need</p>
+
+plaintextrail<BR>
+<TEXTAREA id="p" name="p" rows="4" cols="50">attack at dawn</TEXTAREA>
+<P>line   = <INPUT id="key2" name="key2" size="5" value=" " type="text"></P>
+<P><INPUT name="btnEn" value="v Encrypt v" onclick="Encryptrail()" type="button"> 
+<INPUT name="btnDe" value="^ Decrypt ^" onclick="Decryptrail()" type="button"></P>
+<P>Ciphertext<BR><TEXTAREA id="c2" name="c2" rows="4" cols="50"></TEXTAREA> </P>
+
+
+
+
+
+
+<script src="vegenere.js"></script>
+
+    <h1>Vigenere Cipher Encryptor </h1>
+    <div class="cage">
+        <form id="encdecForm">
+            <h2>Input Form</h2>
+            <fieldset id="inputField">
+                <div class="row">
+                    <div class="label"><label for="ip">Input : </label></div>
+                    <div class="box"><input type="text" id="ip" /></div>
+                </div><br clear="both" />
+                <div class="row">
+                    <div class="label"><label for="key"> Key : </label></div>
+                    <div class="box"><input type="text" id="key" /></div>
+                </div><br clear="both" />
+                <div class="row">
+                    <label for="enc">Encrypt</label><input type="radio" name="slct" id="enc" value="encrypt" checked="checked" />
+                    <label for="dec">Decrypt</label><input type="radio" name="slct" id="dec" value="decrypt" />
+                </div><br clear="both" /><hr />
+                <div class="row">
+                    <div class="label"><label for="result">Result : </label></div>
+                    <div class="box"><input type="text" id="result" /></div>
+                </div><br clear="both" />
+                <div class="row">
+                    <input type="submit" value="Convert" name="convert" />
+                    <input type="reset" value="Reset" name="resetButton" />
+                </div><br clear="both" />
+            </fieldset>
+        </form>
+    </div>
+   
+   
+
+
+
+
+
+
+
+
+    
+
+    </body>
+</head>
+</html>    
